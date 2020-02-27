@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Alexandria</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript" src="./script.js"></script>
+
+</head>
+
+<body class="center">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/dot-luv/jquery-ui.css">
+
+    <h1 onclick="changeBackground();">Alexandria</h1>
+
+    <input type="text" id="query" style="padding-bottom: 15px;"/>
+    <br />
+    <button type="button" value="Search" onclick="apiSearch();">Search</button>
+
+    <button type="button" value="Show Time" onclick="showTime();">Show Time</button>
+
+    <button type="button" value="I'm Feeling Lucky" onclick="feelingLucky();">I'm Feeling Lucky</button>
+
+    <div id="searchResults" style="visibility: hidden"></div>
+
+    <div id="time" style="visibility: hidden">
+        Hello
+
+        <div id="test">Test test test</div>
+    </div>
+    <div id="dialog" style="visibility: hidden"></div>
+</body>
+
+</html>
